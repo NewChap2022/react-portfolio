@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutMe = () => {
     return (
-        <div className="container-fluid">
-            <div className="aboutmecontainer row d-flex justify-content-around align-items-center">
+        <div>
+            <div className="aboutme-container row d-flex justify-content-around align-items-center">
                 <div className="col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
                     <img className="githubgif" src={require('../assets/images/github.gif')} alt="GitHub logo" />
                     <h2>About Me</h2>

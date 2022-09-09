@@ -7,10 +7,6 @@
   justify-content: space-between;
 }
 
-.content-wrap {
-
-}
-
 .navbar-brand {
   font-family: 'Caveat', cursive;
   font-weight: bold;
@@ -30,7 +26,7 @@
   font-weight: bolder;
 }
 
-.aboutmecontainer {
+.aboutme-container {
   margin-top: 30px;
 }
 
@@ -42,6 +38,10 @@
   overflow-wrap: break-word;
 }
 
+.screenshot {
+  object-fit: contain;
+}
+
 footer {
   background-color: #78c2ad;
   padding: 15px;
@@ -49,6 +49,14 @@ footer {
 
 .logo-container {
   margin: 20px;
+}
+
+.portfolio-container {
+  margin: 20px 0;
+}
+
+#message {
+  min-height: 100px;
 }
 
 .footer-logo {

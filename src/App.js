@@ -26,7 +26,7 @@ function App() {
     }
   }
   return (
-    <div className="page-container">
+    <div className="page-container container-fluid">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {renderPage()}
       <Footer />
