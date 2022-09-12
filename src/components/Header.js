@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = ({ currentPage, setCurrentPage }) => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav className="navbar navbar-expand-sm navbar-dark bg-primary">
             <div className="container-fluid">
                 <div className="navbar-brand" href="/">Shu Yang</div>
                 <div className="navbar-collapse" id="navbarColor01">

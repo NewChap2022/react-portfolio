@@ -8,17 +8,21 @@ const Contact = () => {
         return re.test(String(email).toLowerCase());
     };
 
+    const capitalFirstLetter = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     function handleChange(e) {
         if (e.target.id === 'email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
-                setErrorMessage('your email is invalid');
+                setErrorMessage('Your email is invalid!');
             } else {
                 setErrorMessage('');
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.id} is required.`);
+                setErrorMessage(capitalFirstLetter(e.target.id) + " is required!");
             } else {
                 setErrorMessage('');
             }
@@ -34,10 +38,10 @@ const Contact = () => {
         console.log(formState);
     }
     return (
-        <section>
-            <div className="row">
-                <h2 className="col-12">Contact</h2>
-                <form className="col-12 col-md-6" onSubmit={handleSubmit}>
+        <div className="contact-container">
+            <div>
+                <h2 className="text-center">Contact</h2>
+                <form className="contact-form text-center" onSubmit={handleSubmit}>
                     <div className="form-floating mb-3">
                         <input type="name" className="form-control" id="name" placeholder="name" onBlur={handleChange} />
                         <label htmlFor="name">Name</label>
@@ -51,14 +55,14 @@ const Contact = () => {
                         <label htmlFor="message">Message</label>
                     </div>
                     <button type="submit" className="btn btn-warning">Submit</button>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text text-danger">{errorMessage}</p>
+                        </div>
+                    )}
                 </form>
             </div>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
-        </section>
+        </div>
     )
 }
 
