@@ -54,7 +54,7 @@ const Contact = () => {
                         <textarea type="message" className="form-control" id="message" placeholder="message" onBlur={handleChange} />
                         <label htmlFor="message">Message</label>
                     </div>
-                    <button type="submit" className="btn btn-warning">Submit</button>
+                    <button type="submit" className="btn btn-dark">Submit</button>
                     {errorMessage && (
                         <div>
                             <p className="error-text text-danger">{errorMessage}</p>
