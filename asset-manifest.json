@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e67c2fa3.css",
+    "main.js": "/react-portfolio/static/js/main.c84323e1.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/all-about-pokemon.png": "/react-portfolio/static/media/all-about-pokemon.cecfe06b3821c332c97e.png",
+    "static/media/tick-tock.png": "/react-portfolio/static/media/tick-tock.be1457f882b3784562ce.png",
+    "static/media/employee-management-app.png": "/react-portfolio/static/media/employee-management-app.58765d797f7440b322ef.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.dae5b3af9acae81975a3.png",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.523e1ec6242bef255ff3.png",
+    "static/media/aboutme.jpg": "/react-portfolio/static/media/aboutme.8ab4b26a6dd313691ca3.jpg",
+    "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.a7a6f8aa969f32b24e4b.png",
+    "static/media/contactback.jpg": "/react-portfolio/static/media/contactback.e7f83e952093c595f8ac.jpg",
+    "static/media/github.gif": "/react-portfolio/static/media/github.b0335a24179cee66bd5a.gif",
+    "static/media/resume.jpg": "/react-portfolio/static/media/resume.223d06815d081a5a77fd.jpg",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.87bf673645bca0b5aec0.pdf",
+    "static/media/facebook-logo.png": "/react-portfolio/static/media/facebook-logo.1db92574968d27eb7b94.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.e67c2fa3.css.map": "/react-portfolio/static/css/main.e67c2fa3.css.map",
+    "main.c84323e1.js.map": "/react-portfolio/static/js/main.c84323e1.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e67c2fa3.css",
+    "static/js/main.c84323e1.js"
+  ]
+}
