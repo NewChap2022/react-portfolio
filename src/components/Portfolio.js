@@ -9,20 +9,20 @@ import tickTock from "../assets/images/tick-tock.png";
 const Portfolio = () => {
     const [portfolio] = useState([
         {
+            name: "What's Cookin",
+            description: "A food blog site using MERN",
+            deployment: true,
+            deployLink: "https://floating-river-67151.herokuapp.com/",
+            githubLink: "https://github.com/ryanraposo/whatscookin",
+            screenshot: weatherDashboard
+        }, 
+        {
             name: "Code Quiz",
             description: "A quiz with timer and saving-score function.",
             deployment: true,
             deployLink: "https://newchap2022.github.io/code-quiz/index.html",
             githubLink: "https://github.com/NewChap2022/code-quiz",
             screenshot: codeQuiz
-        },
-        {
-            name: "Weather Dashboard",
-            description: "A weather dashboard to display a city's current weather and 5-day forecast",
-            deployment: true,
-            deployLink: "https://newchap2022.github.io/weather-dashboard/",
-            githubLink: "https://github.com/NewChap2022/weather-dashboard",
-            screenshot: weatherDashboard
         },
         {
             name: "All About Pokenmon",
@@ -68,7 +68,7 @@ const Portfolio = () => {
                     <img className="d-block user-select-none screenshot" src={element.screenshot} alt={`${element.name} screenshot`} width="100%" height="200">
                     </img>
                     <div className="card-body text-center">
-                        { element.deployment ? <a href={element.deployLink} rel="noreferrer" target={"_blank"} className="card-link">View App</a> : <></>}      
+                        {element.deployment ? <a href={element.deployLink} rel="noreferrer" target={"_blank"} className="card-link">View App</a> : <></>}
                         <a href={element.githubLink} rel="noreferrer" target={"_blank"} className="card-link">View Code</a>
                     </div>
                 </div>
