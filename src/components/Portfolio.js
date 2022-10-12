@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import codeQuiz from "../assets/images/code-quiz.png";
-import weatherDashboard from "../assets/images/weather-dashboard.png";
+// import weatherDashboard from "../assets/images/weather-dashboard.png";
 import allAboutPokeon from "../assets/images/all-about-pokemon.png";
 import employeeManagementApp from "../assets/images/employee-management-app.png";
 import techBlog from "../assets/images/tech-blog.png";
 import tickTock from "../assets/images/tick-tock.png";
+import whatscookin from "../assets/images/whats-cookin.png";
 
 const Portfolio = () => {
     const [portfolio] = useState([
@@ -14,7 +15,7 @@ const Portfolio = () => {
             deployment: true,
             deployLink: "https://floating-river-67151.herokuapp.com/",
             githubLink: "https://github.com/ryanraposo/whatscookin",
-            screenshot: weatherDashboard
+            screenshot: whatscookin
         }, 
         {
             name: "Code Quiz",
