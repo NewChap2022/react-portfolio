@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/files/resume.pdf"
+import resume from "../assets/files/Full-Stack-Developer_Shu-Yang.pdf"
 
 const Resume = () => {
     return (
@@ -14,7 +14,7 @@ const Resume = () => {
                             <li className="mb-1">CSS</li>
                             <li className="mb-1">Javascript</li>
                             <li className="mb-1">React</li>
-                            <li className="mb-1">Bootstrap</li>
+                            <li className="mb-1">Bootstrap, MUI</li>
                             <li className="mb-1">Responsive Design</li>
                         </ul>
                     </div>
@@ -23,6 +23,7 @@ const Resume = () => {
                         <ul className="d-inline-block">
                             <li className="mb-1">APIs</li>
                             <li className="mb-1">MySQL Sequelize</li>
+                            <li className="mb-1">GraphQL</li>
                             <li className="mb-1">MongoDB</li>
                             <li className="mb-1">Node</li>
                             <li className="mb-1">Express</li>

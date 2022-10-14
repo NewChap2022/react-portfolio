@@ -9,8 +9,8 @@ const Footer = () => {
             <a className="logo-container" href="https://www.linkedin.com/in/shu-yang-iris/" rel="noreferrer" target={"_blank"}>
                 <img className="footer-logo" src={require("../assets/images/linkedin-logo.png")} alt="linkedin logo"></img>
             </a>
-            <a className="logo-container" href="https://www.facebook.com/iris.yangshu/" rel="noreferrer" target={"_blank"}>
-                <img className="footer-logo" src={require("../assets/images/facebook-logo.png")} alt="facebook logo"></img>
+            <a className="logo-container" href="mailto:irisyangshu@gmail.com" rel="noreferrer">
+                <img className="footer-logo" src={require("../assets/images/gmail-logo.png")} alt="gmail logo"></img>
             </a>
         </footer>
     )

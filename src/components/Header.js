@@ -23,14 +23,14 @@ const Header = ({ currentPage, setCurrentPage }) => {
                                 Portfolio
                             </span>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <span 
                                 className={currentPage === 'Contact'? 'nav-link active' : 'nav-link'}
                                 onClick={() => setCurrentPage('Contact')}    
                             >
                                 Contact
                             </span>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <span 
                                 className={currentPage === 'Resume'? 'nav-link active' : 'nav-link'}
