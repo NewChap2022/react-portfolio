@@ -120,7 +120,7 @@ const Portfolio = () => {
                             flexDirection: "column",
                             justifyContent: "center",
                             alignItems: "center",
-                            display: hover[index]
+                            display: hover[index] || "none"
                         }}
                         >
                             {element.technologies.map((technology, index) => (
