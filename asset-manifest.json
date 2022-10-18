@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e67c2fa3.css",
-    "main.js": "/react-portfolio/static/js/main.ce547b09.js",
+    "main.js": "/react-portfolio/static/js/main.d38586f7.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/all-about-pokemon.png": "/react-portfolio/static/media/all-about-pokemon.cecfe06b3821c332c97e.png",
     "static/media/whats-cookin.png": "/react-portfolio/static/media/whats-cookin.b1e16938fd86444ef62f.png",
@@ -10,17 +10,17 @@
     "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.523e1ec6242bef255ff3.png",
     "static/media/aboutme.jpg": "/react-portfolio/static/media/aboutme.8ab4b26a6dd313691ca3.jpg",
     "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.a7a6f8aa969f32b24e4b.png",
-    "static/media/Full-Stack-Developer_Shu-Yang.pdf": "/react-portfolio/static/media/Full-Stack-Developer_Shu-Yang.b08aafe02028a43dbead.pdf",
     "static/media/contactback.jpg": "/react-portfolio/static/media/contactback.e7f83e952093c595f8ac.jpg",
+    "static/media/Resume - Web Dev - Shu Yang.pdf": "/react-portfolio/static/media/Resume - Web Dev - Shu Yang.f1e4073bb9f5f575adea.pdf",
     "static/media/github.gif": "/react-portfolio/static/media/github.b0335a24179cee66bd5a.gif",
     "static/media/resume.jpg": "/react-portfolio/static/media/resume.223d06815d081a5a77fd.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.e67c2fa3.css.map": "/react-portfolio/static/css/main.e67c2fa3.css.map",
-    "main.ce547b09.js.map": "/react-portfolio/static/js/main.ce547b09.js.map",
+    "main.d38586f7.js.map": "/react-portfolio/static/js/main.d38586f7.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e67c2fa3.css",
-    "static/js/main.ce547b09.js"
+    "static/js/main.d38586f7.js"
   ]
 }
